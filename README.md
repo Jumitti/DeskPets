@@ -23,7 +23,7 @@ deskpets
 
 ### Option 2 — Executable
 
-Download the `.zip` from the **Release** section, extract it, and run `DeskPets.exe`.
+Download the `DeskPets.zip` from the [**Release**](https://github.com/Jumitti/DeskPets/releases) section, extract it, and run `DeskPets.exe`.
 
 ## Usage
 
