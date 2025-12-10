@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deskpets"
+version = "1.0.1"
+description = "Desktop pixel pets for Windows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Minniti Julien" }
+]
+
+dependencies = [
+  "PyQt6",
+  "PyQt6-WebEngine",
+    "Pillow"
+]
+
+[project.urls]
+Homepage = "https://github.com/Jumitti/DeskPets"
+
+[project.scripts]
+deskpets = "deskpets.main:main"

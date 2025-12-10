@@ -15,7 +15,7 @@ This project adopts the same core idea, small pixel creatures living on your wor
 pip install deskpets
 ```
 
-And in to run, in CMD.exe:
+And to run, in CMD.exe (according to have python in your PATH):
 
 ```bash
 deskpets
