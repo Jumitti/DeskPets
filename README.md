@@ -57,3 +57,5 @@ Current behavior:
 
 This project is inspired by [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
 by [**tonybaloney**](https://github.com/tonybaloney/vscode-pets).
+
+All media used in this project originates from that repository, and the original credits provided there apply here as well.
