@@ -2,7 +2,7 @@
 
 Desktop pets for Windows. Directly and explicitly inspired by 
 [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
-by [**tonybaloney**](https://github.com/tonybaloney/vscode-pets). 
+by [**tonybaloney**](https://github.com/tonybaloney). 
 This project adopts the same core idea, small pixel creatures living on your workspace.
 
 ![screenshot](img/display.png)
@@ -56,6 +56,6 @@ Current behavior:
 ## Credits
 
 This project is inspired by [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
-by [**tonybaloney**](https://github.com/tonybaloney/vscode-pets).
+by [**tonybaloney**](https://github.com/tonybaloney).
 
 All media used in this project originates from that repository, and the original credits provided there apply here as well.
