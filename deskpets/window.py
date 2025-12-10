@@ -1,17 +1,28 @@
 import sys
 import os
 from PyQt6 import QtWidgets, QtGui, QtCore
-from selector import PetSelector
-from size import SizeSettings
+from .selector import PetSelector
+from .size import SizeSettings
+from .credits import BrowserWindow
 
+import ctypes
+
+BASE_DIR = os.path.dirname(__file__)
+LOGO_DIR = os.path.join(BASE_DIR, "logo.ico")
 
 class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self):
+    def __init__(self, app):
         super().__init__()
 
         self.setWindowTitle("Pet Manager")
         self.resize(800, 600)
-        self.setWindowIcon(QtGui.QIcon("logo.ico"))
+        self.setWindowIcon(QtGui.QIcon(LOGO_DIR))
+
+        app_icon = QtGui.QIcon(LOGO_DIR)
+        app.setWindowIcon(app_icon)
+
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(u"DeskPets")
+        hwnd = int(self.winId())
 
         self.tabs = QtWidgets.QTabWidget()
         self.setCentralWidget(self.tabs)
@@ -33,10 +44,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.tab_size_pet.layout().addWidget(self.size_settings)
 
         self.tab_credits.setLayout(QtWidgets.QVBoxLayout())
-        self.tab_credits.layout().addWidget(QtWidgets.QLabel("Page Credits"))
+        self.browser_window = BrowserWindow()
+        self.tab_credits.layout().addWidget(self.browser_window)
 
         self.tray_icon = QtWidgets.QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QtGui.QIcon("logo.ico"))
+        self.tray_icon.setIcon(QtGui.QIcon(LOGO_DIR))
 
         show_action = QtGui.QAction("Show", self)
         refresh_action = QtGui.QAction("Refresh", self)
@@ -66,7 +78,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.worker.stop()
             self.worker.wait()
 
-        from main import PetWorker, load_pets
+        from .main import PetWorker, load_pets
 
         for pet in getattr(self, "pets", []):
             pet.close()

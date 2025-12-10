@@ -2,10 +2,11 @@ import json
 import os
 from PyQt6 import QtWidgets, QtGui, QtCore
 
-DATA_FILE = "pets_data.json"
-LIST_FILE = "pets_list.json"
-MEDIA_ROOT = "media"
-EXTRA_ROOT = "media/extraIcons"
+BASE_DIR = os.path.dirname(__file__)
+DATA_FILE = os.path.join(BASE_DIR, "pets_data.json")
+LIST_FILE = os.path.join(BASE_DIR, "pets_list.json")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+EXTRA_ROOT = os.path.join(BASE_DIR, "media/extraIcons")
 
 
 def ap(path):

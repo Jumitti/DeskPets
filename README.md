@@ -1,0 +1,59 @@
+# DeskPets 🐶
+
+Desktop pets for Windows. Directly and explicitly inspired by 
+[**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
+by [**tonybaloney**](https://github.com/tonybaloney/vscode-pets). 
+This project adopts the same core idea, small pixel creatures living on your workspace.
+
+![screenshot](img/display.png)
+
+## Installation (Windows only)
+
+### Option 1 — Python 
+
+```bash
+pip install deskpets
+```
+
+And in to run, in CMD.exe:
+
+```bash
+deskpets
+```
+
+### Option 2 — Executable
+
+Download the `.zip` from the **Release** section, extract it, and run `DeskPets.exe`.
+
+## Usage
+
+Launching the application spawns one or more pets in the bottom-left corner of the screen.
+
+Current behavior:
+
+* Unlimited number of pets
+* Some species support multiple color variations
+* Per-species size control
+* Position automatically adapts to the taskbar
+* Simple interaction: some pets sit when the cursor gets close
+
+## Settings
+
+![screenshot](img/settings.png)
+
+![screenshot](img/pets.png)
+
+![screenshot](img/size.png)
+
+![screenshot](img/bigger.png)
+
+## Missing Features
+
+* Bunny, cat, frog (assets not licensed yet)
+* Background system
+* Ball play mechanic
+
+## Credits
+
+This project is inspired by [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
+by [**tonybaloney**](https://github.com/tonybaloney/vscode-pets).

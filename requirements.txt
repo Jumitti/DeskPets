@@ -1,6 +1,4 @@
-PySide6
-pywin32
-pygame
+
 pillow
-pystray
 PyQt6
+PyQt6-WebEngine

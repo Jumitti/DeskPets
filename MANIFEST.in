@@ -1,0 +1,3 @@
+recursive-include deskpets/media *
+recursive-include deskpets *.ico
+recursive-include deskpets *.json

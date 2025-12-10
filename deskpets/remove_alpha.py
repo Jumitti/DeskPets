@@ -1,14 +1,18 @@
 import ctypes
+import os
 
 from PIL import Image
 
 user32 = ctypes.windll.user32
 gdi32 = ctypes.windll.gdi32
 
+
 class GifHelper:
     @staticmethod
     def load_gif_frames(path):
-        img = Image.open(path)
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        abs_path = os.path.join(base_dir, path)
+        img = Image.open(abs_path)
         frames = []
         try:
             while True:

@@ -1,4 +1,5 @@
 import sys
+import os
 import ctypes
 import json
 import time
@@ -6,10 +7,12 @@ import time
 from PyQt6 import QtWidgets, QtGui, QtCore
 from PIL import Image
 
-from pets import Pet
-from remove_alpha import GifHelper
-from window import MainWindow
-CONFIG_FILE = "pets_list.json"
+from .pets import Pet
+from .remove_alpha import GifHelper
+from .window import MainWindow
+
+BASE_DIR = os.path.dirname(__file__)
+CONFIG_FILE = os.path.join(BASE_DIR, "pets_list.json")
 FPS_DEFAULT = 8
 SIZE_DEFAULT = "small"
 gdi32 = ctypes.windll.gdi32
@@ -59,8 +62,12 @@ def load_pets():
     return pets
 
 
-if __name__ == "__main__":
+def main():
     app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
+    window = MainWindow(app)
     window.hide()
     sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()

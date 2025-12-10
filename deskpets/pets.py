@@ -7,12 +7,13 @@ from ctypes import wintypes
 
 from PIL import Image
 import json
-from remove_alpha import GifHelper
-from windows_API import POINT, SIZE, BLENDFUNCTION, Windows
-from state import State
+from .remove_alpha import GifHelper
+from .windows_API import POINT, SIZE, BLENDFUNCTION, Windows
+from .state import State
 
 # Configuration
-JSON_FILE = "pets_data.json"
+BASE_DIR = os.path.dirname(__file__)
+JSON_FILE = os.path.join(BASE_DIR, "pets_data.json")
 
 # JSON
 with open(JSON_FILE, "r", encoding="utf-8") as f:
