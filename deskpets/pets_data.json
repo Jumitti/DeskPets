@@ -1,0 +1,1642 @@
+{
+    "chicken": {
+        "colors": [
+            "white"
+        ],
+        "states": {
+            "white": {
+                "idle": "media/chicken/white_idle_8fps.gif",
+                "run": "media/chicken/white_run_8fps.gif",
+                "swipe": "media/chicken/white_swipe_8fps.gif",
+                "walk": "media/chicken/white_walk_8fps.gif",
+                "walk_fast": "media/chicken/white_walk_fast_8fps.gif",
+                "with_ball": "media/chicken/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "clippy": {
+        "colors": [
+            "brown",
+            "yellow",
+            "green",
+            "black"
+        ],
+        "states": {
+            "black": {
+                "idle": "media/clippy/black_idle_8fps.gif",
+                "run": "media/clippy/black_run_8fps.gif",
+                "swipe": "media/clippy/black_swipe_8fps.gif",
+                "walk": "media/clippy/black_walk_8fps.gif",
+                "walk_fast": "media/clippy/black_walk_fast_8fps.gif",
+                "with_ball": "media/clippy/black_with_ball_8fps.gif"
+            },
+            "brown": {
+                "idle": "media/clippy/brown_idle_8fps.gif",
+                "run": "media/clippy/brown_run_8fps.gif",
+                "swipe": "media/clippy/brown_swipe_8fps.gif",
+                "walk": "media/clippy/brown_walk_8fps.gif",
+                "walk_fast": "media/clippy/brown_walk_fast_8fps.gif",
+                "with_ball": "media/clippy/brown_with_ball_8fps.gif"
+            },
+            "green": {
+                "idle": "media/clippy/green_idle_8fps.gif",
+                "run": "media/clippy/green_run_8fps.gif",
+                "swipe": "media/clippy/green_swipe_8fps.gif",
+                "walk": "media/clippy/green_walk_8fps.gif",
+                "walk_fast": "media/clippy/green_walk_fast_8fps.gif",
+                "with_ball": "media/clippy/green_with_ball_8fps.gif"
+            },
+            "yellow": {
+                "idle": "media/clippy/yellow_idle_8fps.gif",
+                "run": "media/clippy/yellow_run_8fps.gif",
+                "swipe": "media/clippy/yellow_swipe_8fps.gif",
+                "walk": "media/clippy/yellow_walk_8fps.gif",
+                "walk_fast": "media/clippy/yellow_walk_fast_8fps.gif",
+                "with_ball": "media/clippy/yellow_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "cockatiel": {
+        "colors": [
+            "brown",
+            "gray"
+        ],
+        "states": {
+            "brown": {
+                "idle": "media/cockatiel/brown_idle_8fps.gif",
+                "run": "media/cockatiel/brown_run_8fps.gif",
+                "swipe": "media/cockatiel/brown_swipe_8fps.gif",
+                "walk": "media/cockatiel/brown_walk_8fps.gif",
+                "walk_fast": "media/cockatiel/brown_walk_fast_8fps.gif",
+                "with_ball": "media/cockatiel/brown_with_ball_8fps.gif"
+            },
+            "gray": {
+                "idle": "media/cockatiel/gray_idle_8fps.gif",
+                "run": "media/cockatiel/gray_run_8fps.gif",
+                "swipe": "media/cockatiel/gray_swipe_8fps.gif",
+                "walk": "media/cockatiel/gray_walk_8fps.gif",
+                "walk_fast": "media/cockatiel/gray_walk_fast_8fps.gif",
+                "with_ball": "media/cockatiel/gray_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "crab": {
+        "colors": [
+            "red"
+        ],
+        "states": {
+            "red": {
+                "idle": "media/crab/red_idle_8fps.gif",
+                "run": "media/crab/red_run_8fps.gif",
+                "swipe": "media/crab/red_swipe_8fps.gif",
+                "walk": "media/crab/red_walk_8fps.gif",
+                "walk_fast": "media/crab/red_walk_fast_8fps.gif",
+                "with_ball": "media/crab/red_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "deno": {
+        "colors": [
+            "green"
+        ],
+        "states": {
+            "green": {
+                "idle": "media/deno/green_idle_8fps.gif",
+                "run": "media/deno/green_run_8fps.gif",
+                "swipe": "media/deno/green_swipe_8fps.gif",
+                "walk": "media/deno/green_walk_8fps.gif",
+                "walk_fast": "media/deno/green_walk_fast_8fps.gif",
+                "with_ball": "media/deno/green_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "dog": {
+        "colors": [
+            "brown",
+            "white",
+            "black",
+            "red",
+            "akita"
+        ],
+        "states": {
+            "akita": {
+                "idle": "media/dog/akita_idle_8fps.gif",
+                "lie": "media/dog/akita_lie_8fps.gif",
+                "run": "media/dog/akita_run_8fps.gif",
+                "swipe": "media/dog/akita_swipe_8fps.gif",
+                "walk": "media/dog/akita_walk_8fps.gif",
+                "walk_fast": "media/dog/akita_walk_fast_8fps.gif",
+                "with_ball": "media/dog/akita_with_ball_8fps.gif"
+            },
+            "black": {
+                "idle": "media/dog/black_idle_8fps.gif",
+                "lie": "media/dog/black_lie_8fps.gif",
+                "run": "media/dog/black_run_8fps.gif",
+                "swipe": "media/dog/black_swipe_8fps.gif",
+                "walk": "media/dog/black_walk_8fps.gif",
+                "walk_fast": "media/dog/black_walk_fast_8fps.gif",
+                "with_ball": "media/dog/black_with_ball_8fps.gif"
+            },
+            "brown": {
+                "idle": "media/dog/brown_idle_8fps.gif",
+                "lie": "media/dog/brown_lie_8fps.gif",
+                "run": "media/dog/brown_run_8fps.gif",
+                "swipe": "media/dog/brown_swipe_8fps.gif",
+                "walk": "media/dog/brown_walk_8fps.gif",
+                "walk_fast": "media/dog/brown_walk_fast_8fps.gif",
+                "with_ball": "media/dog/brown_with_ball_8fps.gif"
+            },
+            "red": {
+                "idle": "media/dog/red_idle_8fps.gif",
+                "lie": "media/dog/red_lie_8fps.gif",
+                "run": "media/dog/red_run_8fps.gif",
+                "swipe": "media/dog/red_swipe_8fps.gif",
+                "walk": "media/dog/red_walk_8fps.gif",
+                "walk_fast": "media/dog/red_walk_fast_8fps.gif",
+                "with_ball": "media/dog/red_with_ball_8fps.gif"
+            },
+            "white": {
+                "idle": "media/dog/white_idle_8fps.gif",
+                "lie": "media/dog/white_lie_8fps.gif",
+                "run": "media/dog/white_run_8fps.gif",
+                "swipe": "media/dog/white_swipe_8fps.gif",
+                "walk": "media/dog/white_walk_8fps.gif",
+                "walk_fast": "media/dog/white_walk_fast_8fps.gif",
+                "with_ball": "media/dog/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "fox": {
+        "colors": [
+            "red",
+            "white"
+        ],
+        "states": {
+            "red": {
+                "idle": "media/fox/red_idle_8fps.gif",
+                "lie": "media/fox/red_lie_8fps.gif",
+                "run": "media/fox/red_run_8fps.gif",
+                "swipe": "media/fox/red_swipe_8fps.gif",
+                "walk": "media/fox/red_walk_8fps.gif",
+                "walk_fast": "media/fox/red_walk_fast_8fps.gif",
+                "with_ball": "media/fox/red_with_ball_8fps.gif"
+            },
+            "white": {
+                "idle": "media/fox/white_idle_8fps.gif",
+                "lie": "media/fox/white_lie_8fps.gif",
+                "run": "media/fox/white_run_8fps.gif",
+                "swipe": "media/fox/white_swipe_8fps.gif",
+                "walk": "media/fox/white_walk_8fps.gif",
+                "walk_fast": "media/fox/white_walk_fast_8fps.gif",
+                "with_ball": "media/fox/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "horse": {
+        "colors": [
+            "brown",
+            "magical",
+            "paint",
+            "black",
+            "warrior",
+            "white",
+            "socks"
+        ],
+        "states": {
+            "black": {
+                "idle": "media/horse/black_idle_8fps.gif",
+                "run": "media/horse/black_run_8fps.gif",
+                "stand": "media/horse/black_stand_8fps.gif",
+                "swipe": "media/horse/black_swipe_8fps.gif",
+                "walk": "media/horse/black_walk_8fps.gif",
+                "walk_fast": "media/horse/black_walk_fast_8fps.gif",
+                "with_ball": "media/horse/black_with_ball_8fps.gif"
+            },
+            "brown": {
+                "idle": "media/horse/brown_idle_8fps.gif",
+                "run": "media/horse/brown_run_8fps.gif",
+                "stand": "media/horse/brown_stand_8fps.gif",
+                "swipe": "media/horse/brown_swipe_8fps.gif",
+                "walk": "media/horse/brown_walk_8fps.gif",
+                "walk_fast": "media/horse/brown_walk_fast_8fps.gif",
+                "with_ball": "media/horse/brown_with_ball_8fps.gif"
+            },
+            "magical": {
+                "idle": "media/horse/magical_idle_8fps.gif",
+                "run": "media/horse/magical_run_8fps.gif",
+                "stand": "media/horse/magical_stand_8fps.gif",
+                "swipe": "media/horse/magical_swipe_8fps.gif",
+                "walk": "media/horse/magical_walk_8fps.gif",
+                "walk_fast": "media/horse/magical_walk_fast_8fps.gif",
+                "with_ball": "media/horse/magical_with_ball_8fps.gif"
+            },
+            "paint": {
+                "beige_idle": "media/horse/paint_beige_idle_8fps.gif",
+                "beige_run": "media/horse/paint_beige_run_8fps.gif",
+                "beige_stand": "media/horse/paint_beige_stand_8fps.gif",
+                "beige_swipe": "media/horse/paint_beige_swipe_8fps.gif",
+                "beige_walk": "media/horse/paint_beige_walk_8fps.gif",
+                "beige_walk_fast": "media/horse/paint_beige_walk_fast_8fps.gif",
+                "beige_with_ball": "media/horse/paint_beige_with_ball_8fps.gif",
+                "black_idle": "media/horse/paint_black_idle_8fps.gif",
+                "black_run": "media/horse/paint_black_run_8fps.gif",
+                "black_stand": "media/horse/paint_black_stand_8fps.gif",
+                "black_swipe": "media/horse/paint_black_swipe_8fps.gif",
+                "black_walk": "media/horse/paint_black_walk_8fps.gif",
+                "black_walk_fast": "media/horse/paint_black_walk_fast_8fps.gif",
+                "black_with_ball": "media/horse/paint_black_with_ball_8fps.gif",
+                "brown_idle": "media/horse/paint_brown_idle_8fps.gif",
+                "brown_run": "media/horse/paint_brown_run_8fps.gif",
+                "brown_stand": "media/horse/paint_brown_stand_8fps.gif",
+                "brown_swipe": "media/horse/paint_brown_swipe_8fps.gif",
+                "brown_walk": "media/horse/paint_brown_walk_8fps.gif",
+                "brown_walk_fast": "media/horse/paint_brown_walk_fast_8fps.gif",
+                "brown_with_ball": "media/horse/paint_brown_with_ball_8fps.gif"
+            },
+            "socks": {
+                "beige_idle": "media/horse/socks_beige_idle_8fps.gif",
+                "beige_run": "media/horse/socks_beige_run_8fps.gif",
+                "beige_stand": "media/horse/socks_beige_stand_8fps.gif",
+                "beige_swipe": "media/horse/socks_beige_swipe_8fps.gif",
+                "beige_walk": "media/horse/socks_beige_walk_8fps.gif",
+                "beige_walk_fast": "media/horse/socks_beige_walk_fast_8fps.gif",
+                "beige_with_ball": "media/horse/socks_beige_with_ball_8fps.gif",
+                "black_idle": "media/horse/socks_black_idle_8fps.gif",
+                "black_run": "media/horse/socks_black_run_8fps.gif",
+                "black_stand": "media/horse/socks_black_stand_8fps.gif",
+                "black_swipe": "media/horse/socks_black_swipe_8fps.gif",
+                "black_walk": "media/horse/socks_black_walk_8fps.gif",
+                "black_walk_fast": "media/horse/socks_black_walk_fast_8fps.gif",
+                "black_with_ball": "media/horse/socks_black_with_ball_8fps.gif",
+                "brown_idle": "media/horse/socks_brown_idle_8fps.gif",
+                "brown_run": "media/horse/socks_brown_run_8fps.gif",
+                "brown_stand": "media/horse/socks_brown_stand_8fps.gif",
+                "brown_swipe": "media/horse/socks_brown_swipe_8fps.gif",
+                "brown_walk": "media/horse/socks_brown_walk_8fps.gif",
+                "brown_walk_fast": "media/horse/socks_brown_walk_fast_8fps.gif",
+                "brown_with_ball": "media/horse/socks_brown_with_ball_8fps.gif"
+            },
+            "warrior": {
+                "idle": "media/horse/warrior_idle_8fps.gif",
+                "run": "media/horse/warrior_run_8fps.gif",
+                "stand": "media/horse/warrior_stand_8fps.gif",
+                "swipe": "media/horse/warrior_swipe_8fps.gif",
+                "walk": "media/horse/warrior_walk_8fps.gif",
+                "walk_fast": "media/horse/warrior_walk_fast_8fps.gif",
+                "with_ball": "media/horse/warrior_with_ball_8fps.gif"
+            },
+            "white": {
+                "idle": "media/horse/white_idle_8fps.gif",
+                "run": "media/horse/white_run_8fps.gif",
+                "stand": "media/horse/white_stand_8fps.gif",
+                "swipe": "media/horse/white_swipe_8fps.gif",
+                "walk": "media/horse/white_walk_8fps.gif",
+                "walk_fast": "media/horse/white_walk_fast_8fps.gif",
+                "with_ball": "media/horse/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_run": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_walk": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_walk_fast": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "beige_with_ball": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_run": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_walk": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_walk_fast": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "black_with_ball": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_run": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_walk": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_walk_fast": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "brown_with_ball": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "mod": {
+        "colors": [
+            "purple"
+        ],
+        "states": {
+            "purple": {
+                "idle": "media/mod/purple_idle_8fps.gif",
+                "run": "media/mod/purple_run_8fps.gif",
+                "swipe": "media/mod/purple_swipe_8fps.gif",
+                "walk": "media/mod/purple_walk_8fps.gif",
+                "walk_fast": "media/mod/purple_walk_fast_8fps.gif",
+                "with_ball": "media/mod/purple_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "morph": {
+        "colors": [
+            "purple"
+        ],
+        "states": {
+            "purple": {
+                "idle": "media/morph/purple_idle_8fps.gif",
+                "run": "media/morph/purple_run_8fps.gif",
+                "swipe": "media/morph/purple_swipe_8fps.gif",
+                "walk": "media/morph/purple_walk_8fps.gif",
+                "walk_fast": "media/morph/purple_walk_fast_8fps.gif",
+                "with_ball": "media/morph/purple_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "panda": {
+        "colors": [
+            "brown",
+            "black"
+        ],
+        "states": {
+            "black": {
+                "idle": "media/panda/black_idle_8fps.gif",
+                "lie": "media/panda/black_lie_8fps.gif",
+                "run": "media/panda/black_run_8fps.gif",
+                "swipe": "media/panda/black_swipe_8fps.gif",
+                "walk": "media/panda/black_walk_8fps.gif",
+                "walk_fast": "media/panda/black_walk_fast_8fps.gif",
+                "with_ball": "media/panda/black_with_ball_8fps.gif"
+            },
+            "brown": {
+                "idle": "media/panda/brown_idle_8fps.gif",
+                "lie": "media/panda/brown_lie_8fps.gif",
+                "run": "media/panda/brown_run_8fps.gif",
+                "swipe": "media/panda/brown_swipe_8fps.gif",
+                "walk": "media/panda/brown_walk_8fps.gif",
+                "walk_fast": "media/panda/brown_walk_fast_8fps.gif",
+                "with_ball": "media/panda/brown_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "rat": {
+        "colors": [
+            "brown",
+            "white",
+            "gray"
+        ],
+        "states": {
+            "brown": {
+                "idle": "media/rat/brown_idle_8fps.gif",
+                "run": "media/rat/brown_run_8fps.gif",
+                "swipe": "media/rat/brown_swipe_8fps.gif",
+                "walk": "media/rat/brown_walk_8fps.gif",
+                "walk_fast": "media/rat/brown_walk_fast_8fps.gif",
+                "with_ball": "media/rat/brown_with_ball_8fps.gif"
+            },
+            "gray": {
+                "idle": "media/rat/gray_idle_8fps.gif",
+                "run": "media/rat/gray_run_8fps.gif",
+                "swipe": "media/rat/gray_swipe_8fps.gif",
+                "walk": "media/rat/gray_walk_8fps.gif",
+                "walk_fast": "media/rat/gray_walk_fast_8fps.gif",
+                "with_ball": "media/rat/gray_with_ball_8fps.gif"
+            },
+            "white": {
+                "idle": "media/rat/white_idle_8fps.gif",
+                "run": "media/rat/white_run_8fps.gif",
+                "swipe": "media/rat/white_swipe_8fps.gif",
+                "walk": "media/rat/white_walk_8fps.gif",
+                "walk_fast": "media/rat/white_walk_fast_8fps.gif",
+                "with_ball": "media/rat/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "rocky": {
+        "colors": [
+            "gray"
+        ],
+        "states": {
+            "gray": {
+                "idle": "media/rocky/gray_idle_8fps.gif",
+                "run": "media/rocky/gray_run_8fps.gif",
+                "swipe": "media/rocky/gray_swipe_8fps.gif",
+                "walk": "media/rocky/gray_walk_8fps.gif",
+                "walk_fast": "media/rocky/gray_walk_fast_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "rubber-duck": {
+        "colors": [
+            "yellow"
+        ],
+        "states": {
+            "yellow": {
+                "idle": "media/rubber-duck/yellow_idle_8fps.gif",
+                "run": "media/rubber-duck/yellow_run_8fps.gif",
+                "swipe": "media/rubber-duck/yellow_swipe_8fps.gif",
+                "walk": "media/rubber-duck/yellow_walk_8fps.gif",
+                "walk_fast": "media/rubber-duck/yellow_walk_fast_8fps.gif",
+                "with_ball": "media/rubber-duck/yellow_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "skeleton": {
+        "colors": [
+            "brown",
+            "pink",
+            "orange",
+            "blue",
+            "green",
+            "purple",
+            "warrior",
+            "yellow",
+            "red",
+            "white"
+        ],
+        "states": {
+            "blue": {
+                "idle": "media/skeleton/blue_idle_8fps.gif",
+                "run": "media/skeleton/blue_run_8fps.gif",
+                "stand": "media/skeleton/blue_stand_8fps.gif",
+                "swipe": "media/skeleton/blue_swipe_8fps.gif",
+                "walk": "media/skeleton/blue_walk_8fps.gif",
+                "with_ball": "media/skeleton/blue_with_ball_8fps.gif"
+            },
+            "brown": {
+                "idle": "media/skeleton/brown_idle_8fps.gif",
+                "run": "media/skeleton/brown_run_8fps.gif",
+                "stand": "media/skeleton/brown_stand_8fps.gif",
+                "swipe": "media/skeleton/brown_swipe_8fps.gif",
+                "walk": "media/skeleton/brown_walk_8fps.gif",
+                "with_ball": "media/skeleton/brown_with_ball_8fps.gif"
+            },
+            "green": {
+                "idle": "media/skeleton/green_idle_8fps.gif",
+                "run": "media/skeleton/green_run_8fps.gif",
+                "stand": "media/skeleton/green_stand_8fps.gif",
+                "swipe": "media/skeleton/green_swipe_8fps.gif",
+                "walk": "media/skeleton/green_walk_8fps.gif",
+                "with_ball": "media/skeleton/green_with_ball_8fps.gif"
+            },
+            "orange": {
+                "idle": "media/skeleton/orange_idle_8fps.gif",
+                "run": "media/skeleton/orange_run_8fps.gif",
+                "stand": "media/skeleton/orange_stand_8fps.gif",
+                "swipe": "media/skeleton/orange_swipe_8fps.gif",
+                "walk": "media/skeleton/orange_walk_8fps.gif",
+                "with_ball": "media/skeleton/orange_with_ball_8fps.gif"
+            },
+            "pink": {
+                "idle": "media/skeleton/pink_idle_8fps.gif",
+                "run": "media/skeleton/pink_run_8fps.gif",
+                "stand": "media/skeleton/pink_stand_8fps.gif",
+                "swipe": "media/skeleton/pink_swipe_8fps.gif",
+                "walk": "media/skeleton/pink_walk_8fps.gif",
+                "with_ball": "media/skeleton/pink_with_ball_8fps.gif"
+            },
+            "purple": {
+                "idle": "media/skeleton/purple_idle_8fps.gif",
+                "run": "media/skeleton/purple_run_8fps.gif",
+                "stand": "media/skeleton/purple_stand_8fps.gif",
+                "swipe": "media/skeleton/purple_swipe_8fps.gif",
+                "walk": "media/skeleton/purple_walk_8fps.gif",
+                "with_ball": "media/skeleton/purple_with_ball_8fps.gif"
+            },
+            "red": {
+                "idle": "media/skeleton/red_idle_8fps.gif",
+                "run": "media/skeleton/red_run_8fps.gif",
+                "stand": "media/skeleton/red_stand_8fps.gif",
+                "swipe": "media/skeleton/red_swipe_8fps.gif",
+                "walk": "media/skeleton/red_walk_8fps.gif",
+                "with_ball": "media/skeleton/red_with_ball_8fps.gif"
+            },
+            "warrior": {
+                "idle": "media/skeleton/warrior_idle_8fps.gif",
+                "run": "media/skeleton/warrior_run_8fps.gif",
+                "stand": "media/skeleton/warrior_stand_8fps.gif",
+                "swipe": "media/skeleton/warrior_swipe_8fps.gif",
+                "walk": "media/skeleton/warrior_walk_8fps.gif",
+                "with_ball": "media/skeleton/warrior_with_ball_8fps.gif"
+            },
+            "white": {
+                "idle": "media/skeleton/white_idle_8fps.gif",
+                "run": "media/skeleton/white_run_8fps.gif",
+                "stand": "media/skeleton/white_stand_8fps.gif",
+                "swipe": "media/skeleton/white_swipe_8fps.gif",
+                "walk": "media/skeleton/white_walk_8fps.gif",
+                "with_ball": "media/skeleton/white_with_ball_8fps.gif"
+            },
+            "yellow": {
+                "idle": "media/skeleton/yellow_idle_8fps.gif",
+                "run": "media/skeleton/yellow_run_8fps.gif",
+                "stand": "media/skeleton/yellow_stand_8fps.gif",
+                "swipe": "media/skeleton/yellow_swipe_8fps.gif",
+                "walk": "media/skeleton/yellow_walk_8fps.gif",
+                "with_ball": "media/skeleton/yellow_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "snail": {
+        "colors": [
+            "brown"
+        ],
+        "states": {
+            "brown": {
+                "idle": "media/snail/brown_idle_8fps.gif",
+                "run": "media/snail/brown_run_8fps.gif",
+                "swipe": "media/snail/brown_swipe_8fps.gif",
+                "walk": "media/snail/brown_walk_8fps.gif",
+                "walk_fast": "media/snail/brown_walk_fast_8fps.gif",
+                "with_ball": "media/snail/brown_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "snake": {
+        "colors": [
+            "green"
+        ],
+        "states": {
+            "green": {
+                "idle": "media/snake/green_idle_8fps.gif",
+                "run": "media/snake/green_run_8fps.gif",
+                "swipe": "media/snake/green_swipe_8fps.gif",
+                "walk": "media/snake/green_walk_8fps.gif",
+                "walk_fast": "media/snake/green_walk_fast_8fps.gif",
+                "with_ball": "media/snake/green_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "squirrel": {
+        "colors": [
+            "brown",
+            "purple",
+            "black",
+            "gray",
+            "white"
+        ],
+        "states": {
+            "black": {
+                "fall_from_grab": "media/squirrel/black_fall_from_grab_8fps.gif",
+                "idle": "media/squirrel/black_idle_8fps.gif",
+                "land": "media/squirrel/black_land_8fps.gif",
+                "run": "media/squirrel/black_run_8fps.gif",
+                "stand": "media/squirrel/black_stand_8fps.gif",
+                "swipe": "media/squirrel/black_swipe_8fps.gif",
+                "walk": "media/squirrel/black_walk_8fps.gif",
+                "walk_fast": "media/squirrel/black_walk_fast_8fps.gif",
+                "wallclimb": "media/squirrel/black_wallclimb_8fps.gif",
+                "walldig": "media/squirrel/black_walldig_8fps.gif",
+                "wallgrab": "media/squirrel/black_wallgrab_8fps.gif",
+                "wallnap": "media/squirrel/black_wallnap_8fps.gif",
+                "with_ball": "media/squirrel/black_with_ball_8fps.gif"
+            },
+            "brown": {
+                "fall_from_grab": "media/squirrel/brown_fall_from_grab_8fps.gif",
+                "idle": "media/squirrel/brown_idle_8fps.gif",
+                "land": "media/squirrel/brown_land_8fps.gif",
+                "run": "media/squirrel/brown_run_8fps.gif",
+                "stand": "media/squirrel/brown_stand_8fps.gif",
+                "swipe": "media/squirrel/brown_swipe_8fps.gif",
+                "walk": "media/squirrel/brown_walk_8fps.gif",
+                "walk_fast": "media/squirrel/brown_walk_fast_8fps.gif",
+                "wallclimb": "media/squirrel/brown_wallclimb_8fps.gif",
+                "walldig": "media/squirrel/brown_walldig_8fps.gif",
+                "wallgrab": "media/squirrel/brown_wallgrab_8fps.gif",
+                "wallnap": "media/squirrel/brown_wallnap_8fps.gif",
+                "with_ball": "media/squirrel/brown_with_ball_8fps.gif"
+            },
+            "gray": {
+                "fall_from_grab": "media/squirrel/gray_fall_from_grab_8fps.gif",
+                "idle": "media/squirrel/gray_idle_8fps.gif",
+                "land": "media/squirrel/gray_land_8fps.gif",
+                "run": "media/squirrel/gray_run_8fps.gif",
+                "stand": "media/squirrel/gray_stand_8fps.gif",
+                "swipe": "media/squirrel/gray_swipe_8fps.gif",
+                "walk": "media/squirrel/gray_walk_8fps.gif",
+                "walk_fast": "media/squirrel/gray_walk_fast_8fps.gif",
+                "wallclimb": "media/squirrel/gray_wallclimb_8fps.gif",
+                "walldig": "media/squirrel/gray_walldig_8fps.gif",
+                "wallgrab": "media/squirrel/gray_wallgrab_8fps.gif",
+                "wallnap": "media/squirrel/gray_wallnap_8fps.gif",
+                "with_ball": "media/squirrel/gray_with_ball_8fps.gif"
+            },
+            "purple": {
+                "fall_from_grab": "media/squirrel/purple_fall_from_grab_8fps.gif",
+                "idle": "media/squirrel/purple_idle_8fps.gif",
+                "land": "media/squirrel/purple_land_8fps.gif",
+                "run": "media/squirrel/purple_run_8fps.gif",
+                "stand": "media/squirrel/purple_stand_8fps.gif",
+                "swipe": "media/squirrel/purple_swipe_8fps.gif",
+                "walk": "media/squirrel/purple_walk_8fps.gif",
+                "walk_fast": "media/squirrel/purple_walk_fast_8fps.gif",
+                "wallclimb": "media/squirrel/purple_wallclimb_8fps.gif",
+                "walldig": "media/squirrel/purple_walldig_8fps.gif",
+                "wallgrab": "media/squirrel/purple_wallgrab_8fps.gif",
+                "wallnap": "media/squirrel/purple_wallnap_8fps.gif",
+                "with_ball": "media/squirrel/purple_with_ball_8fps.gif"
+            },
+            "white": {
+                "fall_from_grab": "media/squirrel/white_fall_from_grab_8fps.gif",
+                "idle": "media/squirrel/white_idle_8fps.gif",
+                "land": "media/squirrel/white_land_8fps.gif",
+                "run": "media/squirrel/white_run_8fps.gif",
+                "stand": "media/squirrel/white_stand_8fps.gif",
+                "swipe": "media/squirrel/white_swipe_8fps.gif",
+                "walk": "media/squirrel/white_walk_8fps.gif",
+                "walk_fast": "media/squirrel/white_walk_fast_8fps.gif",
+                "wallclimb": "media/squirrel/white_wallclimb_8fps.gif",
+                "walldig": "media/squirrel/white_walldig_8fps.gif",
+                "wallgrab": "media/squirrel/white_wallgrab_8fps.gif",
+                "wallnap": "media/squirrel/white_wallnap_8fps.gif",
+                "with_ball": "media/squirrel/white_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "fall_from_grab": {
+                "hold": 8,
+                "movement_speed": 25,
+                "speed_animation": 1.0
+            },
+            "land": {
+                "hold": 8,
+                "movement_speed": 5,
+                "speed_animation": 1.0
+            },
+            "stand": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "wallclimb": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.5
+            },
+            "walldig": {
+                "hold": 56,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "wallgrab": {
+                "hold": 24,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "wallnap": {
+                "hold": 56,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "totoro": {
+        "colors": [
+            "gray"
+        ],
+        "states": {
+            "gray": {
+                "fall_from_grab": "media/totoro/gray_fall_from_grab_8fps.gif",
+                "idle": "media/totoro/gray_idle_8fps.gif",
+                "jump": "media/totoro/gray_jump_8fps.gif",
+                "land": "media/totoro/gray_land_8fps.gif",
+                "lie": "media/totoro/gray_lie_8fps.gif",
+                "run": "media/totoro/gray_run_8fps.gif",
+                "swipe": "media/totoro/gray_swipe_8fps.gif",
+                "walk": "media/totoro/gray_walk_8fps.gif",
+                "wallclimb": "media/totoro/gray_wallclimb_8fps.gif",
+                "wallgrab": "media/totoro/gray_wallgrab_8fps.gif",
+                "with_ball": "media/totoro/gray_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "fall_from_grab": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "jump": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "land": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "wallclimb": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "wallgrab": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "turtle": {
+        "colors": [
+            "green",
+            "orange"
+        ],
+        "states": {
+            "green": {
+                "idle": "media/turtle/green_idle_8fps.gif",
+                "lie": "media/turtle/green_lie_8fps.gif",
+                "run": "media/turtle/green_run_8fps.gif",
+                "swipe": "media/turtle/green_swipe_8fps.gif",
+                "walk": "media/turtle/green_walk_8fps.gif",
+                "walk_fast": "media/turtle/green_walk_fast_8fps.gif",
+                "with_ball": "media/turtle/green_with_ball_8fps.gif"
+            },
+            "orange": {
+                "idle": "media/turtle/orange_idle_8fps.gif",
+                "lie": "media/turtle/orange_lie_8fps.gif",
+                "run": "media/turtle/orange_run_8fps.gif",
+                "swipe": "media/turtle/orange_swipe_8fps.gif",
+                "walk": "media/turtle/orange_walk_8fps.gif",
+                "walk_fast": "media/turtle/orange_walk_fast_8fps.gif",
+                "with_ball": "media/turtle/orange_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    },
+    "zappy": {
+        "colors": [
+            "yellow"
+        ],
+        "states": {
+            "yellow": {
+                "idle": "media/zappy/yellow_idle_8fps.gif",
+                "run": "media/zappy/yellow_run_8fps.gif",
+                "swipe": "media/zappy/yellow_swipe_8fps.gif",
+                "walk": "media/zappy/yellow_walk_8fps.gif",
+                "walk_fast": "media/zappy/yellow_walk_fast_8fps.gif",
+                "with_ball": "media/zappy/yellow_with_ball_8fps.gif"
+            }
+        },
+        "defaults": {
+            "idle": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 0.5
+            },
+            "lie": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "swipe": {
+                "hold": 8,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            },
+            "walk": {
+                "hold": 24,
+                "movement_speed": 3,
+                "speed_animation": 1.0
+            },
+            "walk_fast": {
+                "hold": 40,
+                "movement_speed": 5,
+                "speed_animation": 1.5
+            },
+            "run": {
+                "hold": 56,
+                "movement_speed": 7,
+                "speed_animation": 2.0
+            },
+            "with_ball": {
+                "hold": 16,
+                "movement_speed": 0,
+                "speed_animation": 1.0
+            }
+        }
+    }
+}

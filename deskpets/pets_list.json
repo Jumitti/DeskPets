@@ -1,0 +1,156 @@
+{
+    "pets": [
+        {
+            "species": "chicken",
+            "colors": [
+                "white"
+            ],
+            "enabled": true,
+            "size": "Small"
+        },
+        {
+            "species": "clippy",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "cockatiel",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "crab",
+            "colors": [
+                "red"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "deno",
+            "colors": [
+                "green"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "dog",
+            "colors": [
+                "brown"
+            ],
+            "enabled": true,
+            "size": "Small"
+        },
+        {
+            "species": "fox",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "horse",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "mod",
+            "colors": [
+                "purple"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "morph",
+            "colors": [
+                "purple"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "panda",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "rat",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "rocky",
+            "colors": [
+                "gray"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "rubber-duck",
+            "colors": [
+                "yellow"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "skeleton",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "snail",
+            "colors": [
+                "brown"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "snake",
+            "colors": [
+                "green"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "squirrel",
+            "colors": [
+                "brown"
+            ],
+            "enabled": true,
+            "size": "Small"
+        },
+        {
+            "species": "totoro",
+            "colors": [
+                "gray"
+            ],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "turtle",
+            "colors": [],
+            "enabled": false,
+            "size": "Original"
+        },
+        {
+            "species": "zappy",
+            "colors": [
+                "yellow"
+            ],
+            "enabled": false,
+            "size": "Original"
+        }
+    ]
+}
