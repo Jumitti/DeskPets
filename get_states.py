@@ -4,7 +4,6 @@ import json
 MEDIA_PATH = "deskpets/media"
 OUTPUT_JSON = "deskpets/pets_data.json"
 
-# Par défaut, valeurs pour les states connues
 DEFAULT_SETTINGS = {
     "idle":       {"hold": 8, "movement_speed": 0, "speed_animation": 0.5},
     "lie":        {"hold": 8, "movement_speed": 0, "speed_animation": 1.0},
@@ -31,23 +30,22 @@ def scan_media(base_path=MEDIA_PATH):
             name, _ = os.path.splitext(file)
             parts = name.split("_")
             if len(parts) < 2:
-                continue  # nom invalide
+                continue
             color = parts[0]
-            state = "_".join(parts[1:-1])  # retirer le "_8fps" final
+            state = "_".join(parts[1:-1])
 
             pets[species]["colors"].add(color)
 
-            # uniformisation du chemin relatif au dossier media
             path = os.path.relpath(os.path.join(species_path, file), start=MEDIA_PATH).replace("\\", "/")
             pets[species]["states"].setdefault(color, {})[state] = f"media/{path}"
 
-            # si la state n'est pas dans defaults, la créer avec 0
             if state not in pets[species]["defaults"]:
                 pets[species]["defaults"][state] = {"hold": 8, "movement_speed": 0, "speed_animation": 1.0}
 
         pets[species]["colors"] = list(pets[species]["colors"])
 
     return pets
+
 
 if __name__ == "__main__":
     data = scan_media()
