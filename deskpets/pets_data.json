@@ -1426,7 +1426,7 @@
                 "speed_animation": 1.5
             },
             "walldig": {
-                "hold": 56,
+                "hold": 28,
                 "movement_speed": 0,
                 "speed_animation": 1.0
             },
