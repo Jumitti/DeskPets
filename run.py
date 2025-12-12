@@ -1,4 +1,7 @@
 from deskpets import main
 
-if __name__ == "__main__":
-    main.main()
+try:
+    if __name__ == "__main__":
+        main.main()
+except Exception as e:
+    print(e)

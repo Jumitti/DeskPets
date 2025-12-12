@@ -1,4 +1,4 @@
-# DeskPets 🐶
+# DeskPets 🐶 🐿️
 
 Desktop pets for Windows. Directly and explicitly inspired by 
 [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
