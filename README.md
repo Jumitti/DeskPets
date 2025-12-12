@@ -53,6 +53,10 @@ Current behavior:
 * Background system
 * Ball play mechanic
 
+## Version
+
+[CHANGELOG](CHANGELOG.md)
+
 ## Credits
 
 This project is inspired by [**vscode-pets**](https://github.com/tonybaloney/vscode-pets)
