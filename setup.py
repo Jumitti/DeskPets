@@ -7,7 +7,8 @@ setup(
     install_requires=[
         "PyQt6",
         "Pillow",
-        "PyQt6-WebEngine"
+        "PyQt6-WebEngine",
+        "pywin32"
     ],
     entry_points={
         "console_scripts": [

@@ -16,7 +16,8 @@ authors = [
 dependencies = [
   "PyQt6",
   "PyQt6-WebEngine",
-  "Pillow"
+  "Pillow",
+  "pywin32"
 ]
 
 [project.urls]
