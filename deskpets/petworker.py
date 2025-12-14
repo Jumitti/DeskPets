@@ -13,6 +13,26 @@ FPS_DEFAULT = 8
 SIZE_DEFAULT = "small"
 
 
+# def load_pets():
+#     try:
+#         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+#             cfg = json.load(f)
+#
+#         pets = []
+#         for entry in cfg.get("pets", []):
+#             if not entry.get("enabled", True):
+#                 continue
+#             species = entry["species"]
+#             fps = entry.get("fps", FPS_DEFAULT)
+#             size = entry.get("size", SIZE_DEFAULT)
+#             for color in entry.get("colors", []):
+#                 pets.append(Pet(species, color, fps, size))
+#         return pets
+#     except Exception as e:
+#         print(e)
+#         traceback.print_exc()
+#         return []
+
 def load_pets():
     try:
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
@@ -26,12 +46,15 @@ def load_pets():
             fps = entry.get("fps", FPS_DEFAULT)
             size = entry.get("size", SIZE_DEFAULT)
             for color in entry.get("colors", []):
-                pets.append(Pet(species, color, fps, size))
+                pet = Pet(species, color, fps, size)
+                pet.main_window = None
+                pets.append(pet)
         return pets
     except Exception as e:
         print(e)
         traceback.print_exc()
         return []
+
 
 
 class PetWorker(QtCore.QThread):

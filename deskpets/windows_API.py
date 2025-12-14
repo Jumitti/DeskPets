@@ -1,6 +1,14 @@
 import ctypes
+import json
+import os
 import traceback
+from ctypes import windll
 from ctypes import wintypes
+
+import win32gui
+
+BASE_DIR = os.path.dirname(__file__)
+CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
 
 user32 = ctypes.windll.user32
 gdi32 = ctypes.windll.gdi32
@@ -10,6 +18,20 @@ WS_EX_TOPMOST = 0x0008
 WS_EX_TRANSPARENT = 0x20
 WS_EX_NOACTIVATE = 0x08000000
 WS_POPUP = 0x80000000
+
+user32FS = windll.user32
+user32FS.SetProcessDPIAware()  # optional, makes functions return real pixel numbers instead of scaled values
+
+full_screen_rect = (0, 0, user32FS.GetSystemMetrics(0), user32FS.GetSystemMetrics(1))
+
+
+def is_full_screen():
+    try:
+        hWnd = user32FS.GetForegroundWindow()
+        rect = win32gui.GetWindowRect(hWnd)
+        return rect == full_screen_rect
+    except:
+        return False
 
 
 class POINT(ctypes.Structure):
@@ -45,20 +67,39 @@ class APPBARDATA(ctypes.Structure):
                 ("lParam", ctypes.c_int)]
 
 
+def load_config():
+    try:
+        if not os.path.exists(CONFIG_FILE):
+            return {"layer": "front"}
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        return {"layer": "front"}
+
+
 class Windows:
     @staticmethod
     def hwnd(x, y, width, height):
         try:
-            hwnd = user32.CreateWindowExW(
-                WS_EX_LAYERED | WS_EX_TOPMOST | WS_EX_TRANSPARENT | WS_EX_NOACTIVATE,
+            cfg = load_config()
+            layer = cfg.get("layer", "front")
+
+            ex_style = WS_EX_LAYERED | WS_EX_TRANSPARENT | WS_EX_NOACTIVATE
+
+            if layer == "front" and not is_full_screen():
+                ex_style |= WS_EX_TOPMOST
+
+            h = user32.CreateWindowExW(
+                ex_style,
                 "Static",
                 None,
                 WS_POPUP,
                 x, y, width, height,
                 None, None, None, None
             )
-            user32.ShowWindow(hwnd, 5)
-            return hwnd
+            user32.ShowWindow(h, 5)
+            return h
+
         except Exception as e:
             print(e)
             traceback.print_exc()

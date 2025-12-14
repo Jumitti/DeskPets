@@ -8,8 +8,9 @@ from .credits import BrowserWindow
 from .petworker import PetWorker, load_pets
 from .remove_alpha import GifHelper
 from .selector import PetSelector
+from .settings import Settings
 from .size import SizeSettings
-from .windows_API import POINT, SIZE, BLENDFUNCTION
+from .windows_API import POINT, SIZE, BLENDFUNCTION, Windows, is_full_screen
 
 user32 = ctypes.windll.user32
 gdi32 = ctypes.windll.gdi32
@@ -18,6 +19,8 @@ BASE_DIR = os.path.dirname(__file__)
 LOGO_DIR = os.path.join(BASE_DIR, "logo.ico")
 
 ULW_ALPHA = 0x2
+
+STATE_FULLSCREEN = False
 
 
 def draw_pet_frame(pet, frame_image):
@@ -32,7 +35,14 @@ def draw_pet_frame(pet, frame_image):
 
 
 def draw_frame(self, hbitmap):
+    global STATE_FULLSCREEN
     try:
+        full_screen_now = is_full_screen()
+        if full_screen_now != STATE_FULLSCREEN:
+            STATE_FULLSCREEN = full_screen_now
+            if getattr(self, "main_window", None):
+                self.main_window.start_refresh()
+
         hdc_screen = user32.GetDC(None)
         hdc_mem = gdi32.CreateCompatibleDC(hdc_screen)
         gdi32.SelectObject(hdc_mem, hbitmap)
@@ -53,6 +63,7 @@ def draw_frame(self, hbitmap):
 
         gdi32.DeleteDC(hdc_mem)
         user32.ReleaseDC(None, hdc_screen)
+
     except Exception as e:
         print(e)
         traceback.print_exc()
@@ -93,9 +104,11 @@ class MainWindow(QtWidgets.QMainWindow):
             self.setCentralWidget(self.tabs)
             self.tab_add_pet = QtWidgets.QWidget()
             self.tab_size_pet = QtWidgets.QWidget()
+            self.tab_settings = QtWidgets.QWidget()
             self.tab_credits = QtWidgets.QWidget()
             self.tabs.addTab(self.tab_add_pet, "Add Pets")
             self.tabs.addTab(self.tab_size_pet, "Size Pets")
+            self.tabs.addTab(self.tab_settings, "Settings")
             self.tabs.addTab(self.tab_credits, "Credits")
 
             self.tab_add_pet.setLayout(QtWidgets.QVBoxLayout())
@@ -105,6 +118,10 @@ class MainWindow(QtWidgets.QMainWindow):
             self.tab_size_pet.setLayout(QtWidgets.QVBoxLayout())
             self.size_settings = SizeSettings(self)
             self.tab_size_pet.layout().addWidget(self.size_settings)
+
+            self.tab_settings.setLayout(QtWidgets.QVBoxLayout())
+            self.settings_settings = Settings(self)
+            self.tab_settings.layout().addWidget(self.settings_settings)
 
             self.tab_credits.setLayout(QtWidgets.QVBoxLayout())
             self.browser_window = BrowserWindow()
@@ -140,7 +157,12 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.worker.stop()
             for pet in getattr(self, "pets", []):
                 close(pet)
+            # self.pets = load_pets() or []
+
             self.pets = load_pets() or []
+            for pet in self.pets:
+                pet.main_window = self
+
             self.worker = PetWorker(self.pets)
             self.worker.frame_ready.connect(draw_pet_frame)
             self.worker.start()

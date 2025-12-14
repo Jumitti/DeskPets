@@ -2,12 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="deskpets",
-    version="1.1.0",
+    version="1.2.0",
     packages=find_packages(),
     install_requires=[
         "PyQt6",
         "Pillow",
-        "PyQt6-WebEngine"
+        "PyQt6-WebEngine",
+        "pywin32"
     ],
     entry_points={
         "console_scripts": [
